@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    margin:100px;
+}
+
+.container{
+    
+    background-color: rgb(90, 90, 99);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+#photo{
+    width: 180px;  
+}
+
+#profil{
+    color: white;
+    text-align:center;
+    
+}
+
+#myRepo{
+    color: white;
+    text-align:center;
+    margin-bottom:25px;
+}
+#repoInfo{
+    text-align:center;
+    width:100%;
+    height:400px;
+    overflow: auto;
+    text-decoration:none; 
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#myRepo{
+    width:500px;
+}
+
+#form{
+    color: white;
+    text-align:center;
+    
+}
+
+
+
+  #repoInfo::-webkit-scrollbar {
+    width: 10px;
+    
+    
+  }
+  
+  #repoInfo::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #40a0d8;
+  }
+
+
+  @media screen and (max-width:695px){
+      #myRepo{
+          background-color: rgb(100, 99, 99);
+          width:100%;
+      }
+  }
+
+  textarea {
+    resize: none;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #888;
+  }
+  
+
+
+

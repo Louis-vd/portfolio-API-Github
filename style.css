@@ -34,6 +34,7 @@ body{
     color: white;
     text-align:center;
     margin-bottom:25px;
+    width:500px;
 }
 #repoInfo{
     text-align:center;
@@ -45,9 +46,6 @@ body{
     flex-wrap: wrap;
 }
 
-#myRepo{
-    width:500px;
-}
 
 #form{
     color: white;
